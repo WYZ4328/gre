@@ -107,7 +107,7 @@ int main(void)
 
 
 
-			//上传所有数据到OneNET
+			
 			OneNet_SendData(temperature, humidity, humi, lux, CO, grain_humi);
 
 			timeCount = 0;
